@@ -1,2 +1,4 @@
-# angularjs
-funcionamiento basico del framework angualrjs con/php y mysql
+# ABM_AngularJs_PHP_persona
+
+
+Ejemplo de la carga de datos usando Angularjs y PHP

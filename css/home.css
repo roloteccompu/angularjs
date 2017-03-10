@@ -1,0 +1,48 @@
+.contenedorTitulos{
+	width: 100%;
+	margin-top: 150px;
+	
+}
+.titulos{
+	width: 70%;
+	margin:auto;
+	
+}
+.titulos h1,h3,h5{
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.pie{
+	
+	padding: 10px;
+	position:fixed;
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(0,0,0,1);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+.pie img{
+	width: 40px;
+}
+.pie .icon{
+	padding-left: 10px;
+	font-size: 40px;
+	color:white;
+	-webkit-animation-name:miForm;
+	-webkit-animation-duration:1s;
+}
+.pie .contacto{
+	font-size: 1em;
+	/*font-family: 'Imprima', sans-serif;*/
+	border-bottom: 1px white solid;
+}
+.pie .icon:hover{
+	font-size: 43px;
+}

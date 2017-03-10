@@ -1,0 +1,80 @@
+.contenedor{
+	margin:auto;
+	width: 350px;
+	margin-bottom: 70px;
+}
+.contenedor h2{
+	color: white;
+	text-align: center;
+	padding:10px;
+
+} 
+.contenedor form{
+	box-shadow: 1px 1px 3px 1px #888888;
+	border-radius: 5px;
+	background-color:rgba(245,245,245,1);
+	padding: 25px;
+	width: 100%;
+	
+}
+.contenedor form p{
+	text-align: center;
+}
+.contenedor form input{
+	box-shadow: 1px 1px 1.5px 1px #888888;
+	width: 100%;
+	padding:10px;
+	font-size: 1em;
+	outline: none;
+	color:black;
+	margin-top: 15px;
+	border: 0px;
+	border-radius: 5px;
+}
+.contenedor form button{
+	box-shadow: 0px 0px 0px 0px #888888;
+	width: 100%;
+	padding:10px;
+	font-size: 1.1em;
+	outline: none;
+	color:white;
+	
+	border: 0px;
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+.contenedor form input:focus{
+	border:0.1px solid rgba(59, 97, 174, 1);
+}
+
+.btnInicio{
+	background-color: rgba(156, 160, 150, 1);
+	margin-top: 15px;
+}
+.btnInicio:hover{
+	background-color: rgba(156, 160,130, 1);
+}
+.btnFacebook{
+	background-color: rgba(59, 97, 255, 1);
+}
+.btnFacebook:hover{
+	background-color: rgba(59, 77, 255, 1);
+}
+
+.btnInicio, .btnFacebook:hover{
+	cursor: pointer;
+}
+
+.btnCambiar{
+	background-color: rgba(156, 160, 150, 1); 
+}
+.btnAlta{
+	background-color: rgba(59, 97, 255, 1);
+	margin-top: 0px;
+}
+.file{
+	padding-top: 5px;
+	width: 100%;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}

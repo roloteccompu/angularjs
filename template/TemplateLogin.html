@@ -1,0 +1,16 @@
+
+<div class="contenedor">
+    <h2 class="titulo">Login</h2>
+    <form   enctype="multipart/form-data" method="" >
+      <p><img src="imagenes/pordefecto.png" alt=""></p>
+      <input  type="text"  autofocus="autofocus" placeholder="ingrese correo" ng-model="correo" >
+      <input  type="text"  placeholder="ingrese clave" ng-model="clave"  >
+      
+      <button class="btnInicio" ng-click="logear()" >Iniciar sesion</button>
+
+      <!-- <button class="btnFacebook" ng-click="inicioFacebook()" >Inicio con Facebook</button> -->
+      <h4 style="color:black;">rolanVega@gmail.com</h4>
+      <h4 style="color:black;">123456</h4>
+      <p style="color:blue;padding: 3px;" ng-model="respuesta">{{respuesta}}</p>
+    </form>
+</div>

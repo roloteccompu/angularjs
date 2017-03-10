@@ -1,0 +1,66 @@
+.contenedorGrilla{
+	width: 80%;
+	margin: auto;
+}
+table{
+	width: 100%;
+	margin-top: 20px;
+	padding: 20px;
+	/*background-color:rgba(245,245,245,1);*/
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px 1px #888888; 
+	margin-bottom: 70px;
+}
+table>thead{
+	height: 50px;
+}
+table>tbody>tr>td>img{
+	
+	width: 60px;
+	height: 60px;
+	border-radius: 2px;
+}
+table>tbody>tr>td{
+	text-align: center;
+}
+
+.cabeceraGrilla{
+	width: 100%;
+	padding:15px;
+	
+	display: flex;
+	flex-direction: row;
+}
+.cabeceraGrilla h1{
+	padding-left: 15px;
+	width: 50%;
+}
+.cabeceraGrilla .buscar{
+	width: 50%;
+	height: 35px;
+	margin-left: 5px;
+	color: black;
+	padding-left: 15px;
+	font-size: 0.9em;
+}
+.btn{
+	width: 90%;
+	border-radius: 2px;
+	border:0px;
+	padding:5px;
+}
+.btn:hover{
+	cursor: pointer;
+}
+.btnModificar{
+	background-color: rgba(13, 141, 34, 1);
+}
+.btnModificar:hover{
+	background-color: rgba(10, 130, 25, 1);
+}
+.btnBorrar{
+	background-color: rgba(252, 56, 48, 0.9);
+}
+.btnBorrar:hover{
+		background-color: rgba(240, 40, 30, 0.9);
+}

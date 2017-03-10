@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+body{
+	background-image: url("../imagenes/fondo.jpg");
+	background-attachment: fixed;
+}
+
+header{
+
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px;
+	background-color: rgba(0,0,0,0.8);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+header .logo ,.menu{
+	
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	align-items:center;
+}
+header .menuLogin {
+	width: 100%;
+}
+header .menuLogin h1{
+	text-align: center;
+}
+header .logo h1{
+	padding:10px;
+	text-align: center;
+	
+}
+header .logo{
+	width: 30%;
+		
+}
+header .logo h1{
+	margin:auto;
+}
+header .menu{
+	width: 70%;
+}
+header .menu .btnMenuSuperior{
+	flex-grow: 1;
+	text-decoration: none;
+	padding:10px;
+	font-size: 1.1em;
+	text-align: center;
+	color:white;
+}
+header .menu .btnMenuSuperior:hover{
+	color:red;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+	
+	header .menu {
+		width: 100%;
+	}
+	header .logo{
+		width: 50%;
+		margin:auto;
+	}
+}

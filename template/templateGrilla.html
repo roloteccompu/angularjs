@@ -1,0 +1,46 @@
+	<div class="contenedorGrilla">
+		
+		<div class="cabeceraGrilla">
+			<h1 class="tituloGrilla">Grilla de usuarios</h1>
+			<input  class="buscar" ng-model="q" placeholder="buscar usuario.." />
+		</div>	
+		
+		<table>					
+			<thead>
+		
+				<tr>
+					<th>  Foto   </th>	 			
+					<th>  Nombre    </th>
+					<th>  Correo   </th>
+					<th>  BORRAR     </th>
+					<th>  MODIFICAR  </th>
+				</tr> 
+			</thead>
+
+			<tbody>
+				
+				<tr   ng-repeat="usuario in ListadoUsuarios| filter:q as results ">
+
+					<td><img  class='fotoGrilla' ng-src=" fotos/{{usuario.foto}}" /></td>
+
+					<td>{{usuario.nombre}}</td>
+					<td>{{usuario.correo}}</td>
+					
+
+					<td><button class='btn btnBorrar' ng-click="Borrar(usuario)">Borrar</button></td>
+					
+					<td><button class='btn btnModificar'  ui-sref="modificar({id:usuario.id, nombre:usuario.nombre, correo:usuario.correo, clave:usuario.clave, foto:usuario.foto})" >Modificar</button></td>
+										
+				</tr>
+				<tr  ng-if="results.length == 0">
+					<td></td>						
+					<td> <strong>no hay usuarios con ese dato...</strong></td>
+					<td></td>
+					<td></td>
+					<td></td>										
+					<td></td>								     
+			    </tr>
+			
+		    </tbody>
+		</table>
+	</div>
